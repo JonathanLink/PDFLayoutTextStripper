@@ -16,11 +16,11 @@ Data extraction from a form in a PDF file
 
 ## How to install
 
-1.. Install **apache pdfbox** through Maven ([to get the v1.8.13 click here](https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox/1.8.13) )
+1. Install **apache pdfbox** through Maven ([to get the v1.8.13 click here](https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox/1.8.13) )
 
 >**warning**: currently only pdfbox versions **strictly inferior to version 2.0.0** are compatible with PDFLayoutTextStripper.java
 
-2.. Copy **PDFLayoutTextStripper.java** inside your main java package
+2. Copy **PDFLayoutTextStripper.java** inside your main java package
 
 ## How to use
 ```
