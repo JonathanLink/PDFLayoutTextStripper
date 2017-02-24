@@ -39,7 +39,6 @@
  * THE SOFTWARE.
  * 
  */
-package ch.moneygraph.parser;
 
 import java.io.IOException;
 import java.util.ArrayList;
