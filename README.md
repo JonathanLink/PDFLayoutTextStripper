@@ -34,8 +34,6 @@ import org.apache.pdfbox.pdfparser.PDFParser;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFTextStripper;
 
-import ch.moneygraph.parser.PDFLayoutTextStripper;
-
 public class test {
 
 	public static void main(String[] args) {
