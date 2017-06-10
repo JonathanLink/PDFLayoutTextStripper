@@ -111,18 +111,6 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
         Collections.sort(textList, comparator);
     }
     
-    private int computeAverageCharacterWidth(final List<TextPosition> textPositionList) {
-        if (textPositionList.size() == 0) {
-            return 0;
-        } else {
-            double averageWidth = 0.0;
-            for (TextPosition textPosition : textPositionList) {
-                averageWidth += textPosition.getWidthOfSpace();
-            }
-            return (int) Math.floor( averageWidth ) / textPositionList.size();
-        }
-    }
-    
     private void writeLine(final List<TextPosition> textPositionList) {
         if ( textPositionList.size() > 0 ) {
             TextLine textLine = this.addNewLine();
