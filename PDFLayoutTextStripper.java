@@ -2,10 +2,11 @@
  * Author: Jonathan Link
  * Email: jonathanlink[d o t]email[a t]gmail[d o t]com
  * Date of creation: 13.11.2014
- * Version: 0.2
+ * Version: 2.0
  * Description:
  * 
- * Version 0.2 uses PDFBox 2.x. Version 0.1 used PDFBox 1.8.x
+ * Version 2.0 uses PDFBox 2.x. Version 1.0 used PDFBox 1.8.x
+ * Acknowledgement to James Sullivan for version 2.0
  *
  * What does it DO:
  * This object converts the content of a PDF file into a String.
