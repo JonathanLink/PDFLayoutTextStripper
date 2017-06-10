@@ -8,52 +8,23 @@
                                                                                                                générales                            
            2' L'Union                                                                                                                               
            3' Bergère                      05    42 50                       42  50                                                                 
-                                                                                                                                                    
            4' Vevey   Funiculaire                                                                                                                   
                                            06    14 23  39  49  59           14  23  39  49  59         10 30  50                                   
-                                                                                                                                                    
-                                                                                                                                                    
                                            07    04 19  29  39  49  59       04  19  29  39  49 59      10 30  50                                   
-                                                                                                                                                    
-                                                                                                                                                    
                                            08    09 19  29  39  49  59       09  19  29  39  49 59      10 30  50                                   
-                                                                                                                                                    
-                                                                                                                                                    
                                            09    09 19  29  39  49  59       09  19  29  39  49 59      10 30  50                                   
-                                                                                                                                                    
-                                                                                                                                                    
                                            10    09 19  29  39  49  59       09  19  29  39  49 59      10 32  52                                   
-                                                                                                                                                    
-                                                                                                                                                    
                                            11    09 19  29  39  49  59       09  19  29  39  49 59      12 32  52                                   
-                                                                                                                                                    
-                                                                                                                                                    
                                            12    09 19  29  39  49  59       09  19  29  39  49 59      12 32  42  52                               
-                                                                                                                                                    
-                                                                                                                                                    
                                            13    09 19  29  39  49  59       09  19  29  39  49 59      02 12  22  29  39  49 59                    
-                                                                                                                                                    
-                                                                                                                                                    
                                            14    09 19  29  39  49  59       09  19  29  39  49 59      09 19  29  39  49  59                       
-                                                                                                                                                    
-                                                                                                                                                    
                                            15    09 19  29  39  49  59       09  19  29  39  49 59      09 19  29  39  49  59                       
-                                                                                                                                                    
-                                                                                                                                                    
                                            16    09 19  29  41  51           09  19  29  39  49 59      09 19  29  39  49  59                       
-                                                                                                                                                    
-                                                                                                                                                    
                                            17    01 11  21  31  41  51       09  19  29  39  49 59      09 19  29  39  49  59                       
-                                                                                                                                                    
-                                                                                                                                                    
                                            18    01 11  21  31  39  49 59    09  19  29  39  49 59      09 19  29  39  49                           
-                                                                                                                                                    
-                                                                                                                                                    
                                            19    09 19  39  58               09  19  38  58             09 19  38  58                               
-                                                                                                                                                    
          Arrêt sur  demande                                                                                                                         
                                            20    18 40                       18  40                     18 40                                       
-                                                                                                                                                    
     SONT CONSIDERES  COMME   JOURS  DE                                                                                                              
                                            21    00 20  40                   00  20  40                 00 20  40                                   
     FETES:Nouvel-An,  2 janvier,  Vendredi                                                                                                          
@@ -62,18 +33,13 @@
     Lundi  de  Pentecôte,  1er août, Lundi du                                                                                                       
     Jeûne  Fédéral,  Noël                                                                                                                           
                                            23    00 20  40  56               00  20  40  56             00 20  40  56                               
-                                                                                                                                                    
-                                                                                                                                                    
                                            24    36                          36                                                                     
     Abonnement   Voie  7  non  valable                                                                                                              
-                                                                                                                                                    
                                            01    05X                         05X                                                                    
-                                                                                                                                                    
                                           Horaire   valable   dès  le 11  décembre     2016                                                         
                                         l                                                                                                           
                                           X  Circule  durant   les nuits  du  vendredi   au  samedi,   du  samedi    au                             
                                           dimanche     et du  31.12   au  01.01                                                                     
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                        l INFO-VENTE:Montreux-Vevey      Tourisme   Grand-Place  29 Vevey  
+                                        l INFO-VENTE:Montreux-Vevey      Tourisme   Grand-Place  29 Vevey                                           
+                                        l                                                                                                           
+
