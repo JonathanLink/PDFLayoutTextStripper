@@ -15,42 +15,19 @@ Data extraction from a form in a PDF file
 
 ## How to install
 
-1) Install **apache pdfbox** through Maven ([to get the v1.8.13 click here](https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox/1.8.13) )
+1) Install **apache pdfbox** manually ([to get the v2.0.6 click here](https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox/2.0.6) ) and its two dependencies
+commons-logging.jar and fontbox
 
->**warning**: currently only pdfbox versions **strictly inferior to version 2.0.0** are compatible with PDFLayoutTextStripper.java
+>**warning**: only pdfbox versions **from version 2.0.0 upwards** are compatible with this version of PDFLayoutTextStripper.java
 
-2) Copy **PDFLayoutTextStripper.java** inside your main java package
 
-## How to use
+### How to use on Linux
 ```
-package pdftest.pt;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
-import org.apache.pdfbox.pdfparser.PDFParser;
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.util.PDFTextStripper;
-
-public class test {
-
-	public static void main(String[] args) {
-		String string = null;
-        try {
-            PDFParser pdfParser = new PDFParser(new FileInputStream("sample.pdf"));
-            pdfParser.parse();
-            PDDocument pdDocument = new PDDocument(pdfParser.getDocument());
-            PDFTextStripper pdfTextStripper = new PDFLayoutTextStripper();
-            string = pdfTextStripper.getText(pdDocument);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        };
-        System.out.println(string);
-	}
-
-}
+cd PDFLayoutTextStripper
+javac -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/PDFLayoutTextStripper/fontbox-2.0.6.jar *.java
+java -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/PDFLayoutTextStripper/fontbox-2.0.6.jar test
 ```
 
+### How to use on Windows
+
+The same as for Linux (see above) but replace :  with ;
