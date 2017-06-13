@@ -58,4 +58,7 @@ public class test {
 ```
 
 ## Contributors
-Thanks to James Sullivan for having updated the code to make it work with the latest version of PDFBox (v2.0.0)
+Thanks to
+
+* James Sullivan for having updated the code to make it work with the latest version of PDFBox (v2.0)
+* Ho Ting Cheng for reporting an issue (v2.1)
