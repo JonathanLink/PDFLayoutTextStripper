@@ -2,10 +2,10 @@
  * Author: Jonathan Link
  * Email: jonathanlink[d o t]email[a t]gmail[d o t]com
  * Date of creation: 13.11.2014
- * Version: 2.0
+ * Version: 2.1
  * Description:
  * 
- * Version 2.0 uses PDFBox 2.x. Version 1.0 used PDFBox 1.8.x
+ * Version 2.1 uses PDFBox 2.x. Version 1.0 used PDFBox 1.8.x
  * Acknowledgement to James Sullivan for version 2.0
  *
  * What does it DO:
@@ -142,6 +142,9 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
             }
             this.setPreviousTextPosition(textPosition);
         }
+        if (!textPositionList.isEmpty()) {
+            this.writeTextPositionList(textPositionList);
+        }
     }
     
     private void writeTextPositionList(final List<TextPosition> textPositionList) {
@@ -163,10 +166,10 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
         
         float textYPosition = Math.round( textPosition.getY() );
         float previousTextYPosition = Math.round( previousTextPosition.getY() );
-        
+  
         if ( textYPosition > previousTextYPosition ) {
             double height = textPosition.getHeight();
-            int numberOfLines = (int) (Math.floor( previousTextYPosition - textYPosition) / height );
+            int numberOfLines = (int) (Math.floor( textYPosition - previousTextYPosition) / height );
             numberOfLines = Math.max(1, numberOfLines - 1); // exclude current new line
             return numberOfLines ; 
         } else {
