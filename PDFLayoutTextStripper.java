@@ -1,5 +1,3 @@
-package pdftest.pt;
-
 /*
  * Author: Jonathan Link
  * Email: jonathanlink[d o t]email[a t]gmail[d o t]com
