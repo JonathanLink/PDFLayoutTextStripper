@@ -2,7 +2,7 @@
  * Author: Jonathan Link
  * Email: jonathanlink[d o t]email[a t]gmail[d o t]com
  * Date of creation: 13.11.2014
- * Version: 2.1
+ * Version: 2.2.2
  * Description:
  *
  * Version 2.1 uses PDFBox 2.x. Version 1.0 used PDFBox 1.8.x
