@@ -2,7 +2,7 @@
  * Author: Jonathan Link
  * Email: jonathanlink[d o t]email[a t]gmail[d o t]com
  * Date of creation: 13.11.2014
- * Version: 2.2.2
+ * Version: 2.3
  * Description:
  *
  * Version 2.1 uses PDFBox 2.x. Version 1.0 used PDFBox 1.8.x
@@ -74,7 +74,7 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
     public void processPage(PDPage page) throws IOException {
         PDRectangle pageRectangle = page.getMediaBox();
         if (pageRectangle!= null) {
-            this.setCurrentPageWidth(pageRectangle.getWidth());
+            this.setCurrentPageWidth(pageRectangle.getWidth() * 1.2); // 1.2 dirty fix (see issue 15)
             super.processPage(page);
             this.previousTextPosition = null;
             this.textLineList = new ArrayList<TextLine>();
@@ -171,8 +171,11 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
         float textYPosition = Math.round( textPosition.getY() );
         float previousTextYPosition = Math.round( previousTextPosition.getY() );
 
-        if ( textYPosition > previousTextYPosition && (textYPosition - previousTextYPosition > 5.5) ) {
+        if ( textYPosition > previousTextYPosition && (textYPosition - previousTextYPosition > 5.5) ) { // 5.5 dirty fix (see issue 12)
             double height = textPosition.getHeight();
+            if (height == 0) {
+            	height = 1;
+            }
             int numberOfLines = (int) (Math.floor( textYPosition - previousTextYPosition) / height );
             numberOfLines = Math.max(1, numberOfLines - 1); // exclude current new line
             if (DEBUG) System.out.println(height + " " + numberOfLines);
@@ -264,6 +267,7 @@ class TextLine {
     }
 
     private boolean isSpaceCharacterAtIndex(int index) {
+    	if (this.line.length() == 0 || index < 0) return false;
         return this.line.charAt(index) != SPACE_CHARACTER;
     }
 
