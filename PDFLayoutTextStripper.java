@@ -264,7 +264,25 @@ class TextLine {
     }
 
     private boolean isSpaceCharacterAtIndex(int index) {
-        return this.line.charAt(index) != SPACE_CHARACTER;
+
+        boolean testSpaceChar=false;
+
+        try {
+
+            this.line.charAt(index);
+            if (this.line.charAt(index) > 0) {
+                System.out.println(this.line.charAt(index));
+                test = this.line.charAt(index) != SPACE_CHARACTER;
+                return testSpaceChar;
+            }
+
+
+        } catch (StringIndexOutOfBoundsException siobe) {
+            System.out.println("invalid input");
+        } finally {
+            return testSpaceChar;
+        }
+
     }
 
     private boolean isNewIndexGreaterThanLastIndex(int index) {
