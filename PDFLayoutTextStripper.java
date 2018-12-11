@@ -2,7 +2,7 @@
  * Author: Jonathan Link
  * Email: jonathanlink[d o t]email[a t]gmail[d o t]com
  * Date of creation: 13.11.2014
- * Version: 2.2.2
+ * Version: 2.2.3
  * Description:
  *
  * Version 2.1 uses PDFBox 2.x. Version 1.0 used PDFBox 1.8.x
@@ -21,7 +21,7 @@
  *
  * The MIT License (MIT)
  *
- * Copyright (c) 2014-2017 Jonathan Link
+ * Copyright (c) 2014-2019 Jonathan Link
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -428,8 +428,7 @@ class CharacterFactory {
             return false;
         }
         double numberOfSpaces = this.numberOfSpacesBetweenTwoCharacters(previousTextPosition, textPosition);
-        int widthOfSpace = (int) Math.ceil(textPosition.getWidthOfSpace());
-        return (numberOfSpaces > 1 && numberOfSpaces <= widthOfSpace);
+        return (numberOfSpaces > 1 && numberOfSpaces <= PDFLayoutTextStripper.OUTPUT_SPACE_CHARACTER_WIDTH_IN_PT);
     }
 
     private boolean isCharacterPartOfPreviousWord(final TextPosition textPosition) {
