@@ -43,6 +43,9 @@
  *
  */
 
+
+package io.github.jonathanlink;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -55,6 +58,12 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 import org.apache.pdfbox.text.TextPositionComparator;
 
+/**
+* Java doc to be completed
+* 
+* @author Jonathan Link
+* 
+*/
 public class PDFLayoutTextStripper extends PDFTextStripper {
 
     public static final boolean DEBUG = false;
@@ -64,12 +73,19 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
     private TextPosition previousTextPosition;
     private List<TextLine> textLineList;
 
+    /**
+    * Constructor
+    */
     public PDFLayoutTextStripper() throws IOException {
         super();
         this.previousTextPosition = null;
         this.textLineList = new ArrayList<TextLine>();
     }
 
+    /**
+    * 
+    * @param page page to parse
+    */
     @Override
     public void processPage(PDPage page) throws IOException {
         PDRectangle pageRectangle = page.getMediaBox();
