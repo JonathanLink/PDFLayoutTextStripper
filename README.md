@@ -11,6 +11,16 @@ Data extraction from a form in a PDF file
 
 ## How to install
 
+### Maven
+```
+<dependency>
+  <groupId>io.github.jonathanlink</groupId>
+  <artifactId>PDFLayoutTextStripper</artifactId>
+  <version>2.2.3</version>
+</dependency>
+```
+
+### Manual
 1) Install **apache pdfbox** manually ([to get the v2.0.6 click here](https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox/2.0.6) ) and its two dependencies
 commons-logging.jar and fontbox
 
