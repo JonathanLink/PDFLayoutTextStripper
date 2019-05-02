@@ -17,7 +17,7 @@ public class test {
             PDFParser pdfParser = new PDFParser(new RandomAccessFile(new File("./samples/bus.pdf"), "r"));
             pdfParser.parse();
             PDDocument pdDocument = new PDDocument(pdfParser.getDocument());
-            PDFTextStripper pdfTextStripper = new PDFLayoutTextStripper();
+            PDFTextStripper pdfTextStripper = new PDFTextStripper();
             string = pdfTextStripper.getText(pdDocument);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
