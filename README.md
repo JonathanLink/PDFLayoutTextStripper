@@ -22,7 +22,7 @@ Data extraction from a form in a PDF file
 
 ### Manual
 1) Install **apache pdfbox** manually ([to get the v2.0.6 click here](https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox/2.0.6) ) and its two dependencies
-commons-logging.jar and fontbox
+commons-logging.jar (https://commons.apache.org/proper/commons-logging/download_logging.cgi) and fontbox (https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox/2.0.0)
 
 >**warning**: only pdfbox versions **from version 2.0.0 upwards** are compatible with this version of PDFLayoutTextStripper.java
 
@@ -30,8 +30,8 @@ commons-logging.jar and fontbox
 ### How to use on Linux/Mac
 ```
 cd PDFLayoutTextStripper
-javac -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/PDFLayoutTextStripper/fontbox-2.0.6.jar *.java
-java -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/PDFLayoutTextStripper/fontbox-2.0.6.jar test
+javac -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/fontbox-2.0.6.jar *.java
+java -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/fontbox-2.0.6.jar test
 ```
 
 ### How to use on Windows
