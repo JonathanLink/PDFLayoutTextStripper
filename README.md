@@ -52,7 +52,8 @@ public class test {
 	public static void main(String[] args) {
 		String string = null;
         try {
-            PDFParser pdfParser = new PDFParser(new RandomAccessFile(new File("./samples/bus.pdf"), "r"));
+	    RandomAccessBufferedFileInputStream file = new RandomAccessBufferedFileInputStream(new File("./samples/bus.pdf"));
+            PDFParser pdfParser = new PDFParser(file);
             pdfParser.parse();
             PDDocument pdDocument = new PDDocument(pdfParser.getDocument());
             PDFTextStripper pdfTextStripper = new PDFLayoutTextStripper();
