@@ -294,7 +294,7 @@ class TextLine {
         if ( ! this.isNewIndexGreaterThanLastIndex(index) ) {
             nextValidIndex = lastIndex + 1;
         }
-        if ( !isCharacterPartOfPreviousWord && this.isSpaceCharacterAtIndex(index - 1) ) {
+        if ( !isCharacterPartOfPreviousWord && (index > 0) && this.isSpaceCharacterAtIndex(index - 1) ) {
             nextValidIndex = nextValidIndex + 1;
         }
         this.setLastIndex(nextValidIndex);
