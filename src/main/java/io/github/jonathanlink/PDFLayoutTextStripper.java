@@ -2,7 +2,7 @@
  * Author: Jonathan Link
  * Email: jonathanlink[d o t]email[a t]gmail[d o t]com
  * Date of creation: 13.11.2014
- * Version: 2.2.3
+ * Version: 2.2.5
  * Description:
  *
  * Version 2.1 uses PDFBox 2.x. Version 1.0 used PDFBox 1.8.x
@@ -18,6 +18,19 @@
  * I would appreciate any feedback you could offer. (see my email address above)
  *
  */
+
+/* Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. */
+
 
 
 package io.github.jonathanlink;
