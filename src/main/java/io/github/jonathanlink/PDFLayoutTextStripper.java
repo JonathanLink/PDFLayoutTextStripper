@@ -178,6 +178,9 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
 
         if ( textYPosition > previousTextYPosition && (textYPosition - previousTextYPosition > 5.5) ) {
             double height = textPosition.getHeight();
+            if(height == 0.0){
+                height = 1;
+            }
             int numberOfLines = (int) (Math.floor( textYPosition - previousTextYPosition) / height );
             numberOfLines = Math.max(1, numberOfLines - 1); // exclude current new line
             if (DEBUG) System.out.println(height + " " + numberOfLines);
