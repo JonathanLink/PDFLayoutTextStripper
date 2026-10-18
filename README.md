@@ -10,7 +10,7 @@ Converts a PDF file into a text file while keeping the layout of the original PD
   </tr>
   <tr>
     <td align="center" width="110">
-      <a href="https://www.e-iceblue.com/Introduce/pdf-for-java.html?aff_id=419">
+      <a href="https://www.e-iceblue.com/Introduce/pdf-for-java.html?aff_id=433">
         <img src="https://github.com/user-attachments/assets/249580fe-7472-4521-b361-2361fe6117cc" alt="Spire.PDF for Java logo" width="72">
       </a>
     </td>
@@ -18,7 +18,7 @@ Converts a PDF file into a text file while keeping the layout of the original PD
       <h3>Spire.PDF for Java</h3>
       Create, edit, convert, and process PDF documents programmatically in Java, with support for tables, forms, images, annotations, and more.
       <br><br>
-      <a href="https://www.e-iceblue.com/Introduce/pdf-for-java.html?aff_id=419"><strong>Explore Spire.PDF for Java →</strong></a>
+      <a href="https://www.e-iceblue.com/Introduce/pdf-for-java.html?aff_id=433"><strong>Explore Spire.PDF for Java →</strong></a>
     </td>
   </tr>
 </table>
