@@ -2,6 +2,27 @@
 
 Converts a PDF file into a text file while keeping the layout of the original PDF. Useful to extract the content from a table or a form in a PDF file. PDFLayoutTextStripper is a subclass of PDFTextStripper class (from the [Apache PDFBox](https://pdfbox.apache.org/) library).
 
+<table>
+  <tr>
+    <td colspan="2" align="center">
+      <em>This repository is supported by our sponsor</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110">
+      <a href="https://www.e-iceblue.com/Introduce/pdf-for-java.html?aff_id=419">
+        <img src="https://github.com/user-attachments/assets/249580fe-7472-4521-b361-2361fe6117cc" alt="Spire.PDF for Java logo" width="72">
+      </a>
+    </td>
+    <td>
+      <h3>Spire.PDF for Java</h3>
+      Create, edit, convert, and process PDF documents programmatically in Java, with support for tables, forms, images, annotations, and more.
+      <br><br>
+      <a href="https://www.e-iceblue.com/Introduce/pdf-for-java.html?aff_id=419"><strong>Explore Spire.PDF for Java →</strong></a>
+    </td>
+  </tr>
+</table>
+
 ## Use cases
 Data extraction from a table in a PDF file
 ![example](sample.png)
